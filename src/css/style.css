@@ -561,6 +561,11 @@ h3 {
         color: #000000;
         margin-bottom: 1.5rem;
     }
+    .prev-next-buttos-container {
+        height: 48px;
+        display: flex;
+        gap: 10px;
+    }
     button{
         font-size: 24px;
         width: 40px;
@@ -592,7 +597,7 @@ h3 {
 
     }
     .swiper { width: 100%; height: 300px; }
-    
+
 .swiper-slide { 
     display: flex; 
     justify-content: center; 
@@ -642,11 +647,7 @@ h3 {
 }
 }
 
-.prev-next-buttos-container {
-    height: 48px;
-    display: flex;
-    gap: 10px;
-}
+
 
 
 
