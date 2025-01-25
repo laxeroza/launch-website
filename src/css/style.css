@@ -108,6 +108,7 @@ header {
 }
 
 main {
+    overflow: hidden;
     section {
         padding-bottom: 150px;
     }
@@ -148,7 +149,25 @@ main {
         text-transform: uppercase;
         font-weight: 700;
     }
-
+}
+.col-4{
+    .feedback-desc {
+        color: #000;
+        font-style: italic;
+    }
+    .client-card {
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    
+        h5 {
+            font-weight: 400;
+    
+        }
+    }
 }
 
 .dots {
@@ -172,7 +191,6 @@ h2 {
 
 ul {
     margin-bottom: 1.5rem;
-
     li {
         margin-bottom: 10px;
 
@@ -181,28 +199,10 @@ ul {
             margin-right: 10px;
         }
     }
-
 }
 
-.feedback-desc {
-    color: #000;
-    font-style: italic;
 
-}
 
-.client-card {
-    img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 20px;
-    }
-
-    h5 {
-        font-weight: 400;
-
-    }
-}
 
 .service-big-image {
     cursor: pointer;
@@ -287,9 +287,11 @@ ul {
     }
 }
 
+
 .card {
     display: flex;
     gap: 20px;
+
 }
 
 h3 {
@@ -311,7 +313,7 @@ h3 {
         color: #fff;
     }
 }
-
+.service-icon
 .note {
     margin-bottom: 40px;
 }
@@ -429,20 +431,43 @@ h3 {
                 }
             }
         }
+        }
+        .btn-blue{ 
+                padding: 5px 22px;
+                background-color: #407bff;
+                border: 1px solid #407bff;
+                border-radius: 30px;
+                font-size: 14px;
+                display: inline-block;
+                color: rgb(225, 255, 255);
+        
+        }
+    .btn{ 
+            padding: 10px 20px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 30px;
+            font-size: 14px;
+            display: inline-block;
+            color: rgba(0, 0, 0, 0.5);
+            transition: all .3s;
+        
+            &:hover {
+               background-color: #407bff;
+               color: #fff;
+            }
+        }  
     }
-
     .active {
         box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
     }
 
-    .btn {
-        padding: 10px 20px;
-    }
-}
+
+    
 
 #untree-co-icons {
     background-color: #fff;
     padding: 100px 0;
+
 }
 
 #untree-co-icons {
@@ -453,6 +478,10 @@ h3 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        .heading{
+            font-size: 38px;
+            color: #000000;
+        }
     }
 
     .advantage-container {
@@ -518,7 +547,106 @@ h3 {
     }
 
 }
+ 
+#feedback-item-1{
+    .sub-title{
+        color: #407BFF;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 38px;
+        color: #000000;
+        margin-bottom: 1.5rem;
+    }
+    button{
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        background: #ccc;
+        color: #ffffff;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+        cursor: pointer;
+        position: static !important;
 
-.text {
+        &::after {
+            content: '';
+        }
+
+        span{
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+        &:hover{
+            background-color: #407bff;
+        }
+
+
+    }
+    .swiper { width: 100%; height: 300px; }
+.swiper-slide { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+    div {
+        blockquote {
+            font-style: italic;
+            color: #000000;
+            font-family: 'Nunito';
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+    }
+  
+}
+
+.avatar-container {
+    display: flex;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
 
 }
+
+.min-width-350 {
+  min-width: 350px;
+}
+
+.info {
+    padding-left: 15px;
+    h5 {
+        font-family: 'Nunito';
+        font-size: 14px;
+        text-align: left;
+    }
+
+    p {
+        font-family: 'Nunito';
+        font-size: 14px;
+    }
+}
+}
+
+.prev-next-buttos-container {
+    height: 48px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+

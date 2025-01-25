@@ -6,9 +6,10 @@
 }
 
 .row {
+    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    margin-inline: -15px;
+    /* margin-inline: -15px; */
 }
 
 .col-1 {
@@ -63,6 +64,7 @@
 
 .flex{
     display: flex;
+    flex-grow: 1;
 
 }
 .text-center {

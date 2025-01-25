@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swipper s CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Css file -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/layout.css">
+    <link rel="stylesheet" href="./src/css/swipper.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="stylesheet" href="./src/css/animation.css">
@@ -60,6 +65,7 @@
         </div>
     </header>
     <main>
+        <!-- intro -->
         <section id="intro">
             <div class="container">
                 <div class="row justify-content-between">
@@ -78,6 +84,7 @@
                 </div>
             </div>
         </section>
+        <!-- service -->
         <section id="service">
             <div class="container">
                 <div class="row justify-content-between">
@@ -96,24 +103,29 @@
                                 Far far away behind the word
                             </li>
                         </ul>
+
                         <p class="feedback-desc">“Separated they live in Bookmarksgrove right at the coast of the
                             Semantics, a large language
                             ocean. A small river named Duden flows by their place and supplies it with the necessary
                             regelialia. ”</p>
                         <div class="client-card flex">
-                            <img src="https://preview.colorlib.com/theme/launch/images/person_1.jpg.webp"
-                                alt="client image">
+                            <div>
+                                <img src="./asets/images/person_1.jpg" alt="clientImage">
+                            </div>
                             <div>
                                 <h5>James Anderson</h5>
                                 <p>Facebook, Product Lead</p>
                             </div>
                         </div>
                     </div>
+
+
+
                     <div class="col-7">
                         <div class="service-big-image">
                             <div class="overlay-elem">
                             </div>
-                            <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+                            <img src="./asets/images/dashboard.jpg" alt="">
                             <div class="icon-container">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -122,10 +134,11 @@
                 </div>
             </div>
         </section>
+        <!-- untree co -->
         <section id="untree-co">
             <div class="container">
                 <div class="leftImage">
-                    <img src="https://preview.colorlib.com/theme/launch/images/dashboard.jpg.webp" alt="">
+                    <img src="./asets/images/dashboard.jpg" alt="">
                 </div>
                 <div class="col-5">
                     <div class="card">
@@ -150,7 +163,6 @@
                     </div>
 
 
-
                     <div class="card">
                         <div class="service-icon svg-2">
                             <svg class="bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
@@ -169,6 +181,7 @@
                             </p>
                         </div>
                     </div>
+
 
                     <div class="card">
                         <div class="service-icon svg-3">
@@ -189,6 +202,7 @@
                         </div>
                     </div>
 
+
                     <div class="card">
                         <div class="service-icon svg-4">
                             <svg class="bi-collection" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
@@ -204,12 +218,10 @@
                             </p>
                         </div>
                     </div>
-
-
         </section>
 
 
-
+        <!-- icons -->
         <section id="icons">
             <div class="container">
                 <div class="col-3">
@@ -229,7 +241,6 @@
 
                     <div class="text">
                         <h3>Grow Your Business</h3>
-
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
                         </p>
                     </div>
@@ -249,7 +260,6 @@
                     </div>
                     <div class="text">
                         <h3>Build Products</h3>
-
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                     </div>
                 </div>
@@ -284,12 +294,12 @@
                     </div>
                     <div class="text">
                         <h3>Bring Ideas to Life</h3>
-
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
                         </p>
                     </div>
                 </div>
             </div>
+            <!-- Pricing -->
             <section id="pricing">
                 <div class="row justify-content-center">
                     <div class="text-center">
@@ -331,9 +341,9 @@
                         data-aos-delay="150">
                         <div class="pricing-card active">
                             <div class="text-center">
-                                <h3>Free</h3>
+                                <h3>Standard</h3>
                                 <p>
-                                    <sup>$</sup>0
+                                    <sup>$</sup>19.99
                                 </p>
                             </div>
                             <ul>
@@ -351,8 +361,7 @@
                                 </li>
                             </ul>
                             <div class="text-center">
-                                <a href="#" class="btn btn-blue">Get Started</a>
-
+                                <a href="#" class="btn-blue">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -360,9 +369,9 @@
                         data-aos-delay="250">
                         <div class="pricing-card">
                             <div class="text-center">
-                                <h3>Free</h3>
+                                <h3>Premium</h3>
                                 <p>
-                                    <sup>$</sup>0
+                                    <sup>$</sup>79.99
                                 </p>
                             </div>
                             <ul>
@@ -381,7 +390,6 @@
                             </ul>
                             <div class="text-center">
                                 <a href="#" class="btn">Get Started</a>
-
                             </div>
                         </div>
                     </div>
@@ -389,10 +397,10 @@
                 </div>
                 </div>
             </section>
-
+            <!-- untree co icons -->
             <section id="untree-co-icons">
                 <div class=" ">
-                    <div class="col-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <div class="col-12">
                         <h2 class="heading">Advantage of using our products</h2>
                         <p>Far from the countries Vokalia and Consonantia</p>
                     </div>
@@ -495,10 +503,107 @@
                 </div>
             </section>
 
-
-
+            <section id="feedback-item-1">
+                <div class="container">
+                    <div class="col-4 min-width-350">
+                        <p class="sub-title">
+                            Testimonials</p>
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Our Customers Feedbck
+                        </h2>
+                        <div class="prev-next-buttos-container">
+                            <button data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"class="swiper-button-prev">
+                                <span> &leftarrow;</span>
+                            </button>
+                            <button data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true"
+                            class="swiper-button-next">
+                                <span>&rightarrow;</span>
+                            </button>
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+                        </div>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div>
+                                <blockquote>
+                                    “Separated they <span class="highlight">live in Bookmarksgrove right at the coast of the Semantics</span>, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”
+                                  </blockquote>
+                                <div class="avatar-container">
+                                  <div class="avatar">
+                                     <img src="./asets/images/person_1.jpg" alt="">
+                                  </div>
+                                  <div class="info">
+                                    <h5>James Anderson</h5>
+                                    <p>Facebook, Product Lead</p>
+                                  </div>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div>
+                                <blockquote>
+                                    “Separated they <span class="highlight">live in Bookmarksgrove right at the coast of the Semantics</span>, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”
+                                  </blockquote>
+                                <div class="avatar-container">
+                                  <div class="avatar">
+                                     <img src="./asets/images/person_2.jpg" alt="">
+                                  </div>
+                                  <div class="info">
+                                    <h5>James Anderson</h5>
+                                    <p>Facebook, Product Lead</p>
+                                  </div>
+                                </div>
+                                
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <blockquote>
+                                    “Separated they <span class="highlight">live in Bookmarksgrove right at the coast of the Semantics</span>, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”
+                                  </blockquote>
+                                <div class="avatar-container">
+                                  <div class="avatar">
+                                     <img src="./asets/images/person_2.jpg" alt="">
+                                  </div>
+                                  <div class="info">
+                                    <h5>James Anderson</h5>
+                                    <p>Facebook, Product Lead</p>
+                                  </div>
+                                </div>
+                                
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
     </main>
     <footer></footer>
-</body>
+
+
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper('.swiper', {
+              loop: true,
+              slidesPerView: 2, // Display 2 cards at a time
+              spaceBetween: 20, // Space between the cards
+              autoplay: {
+                delay: 3000, // Delay between slides
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+ </body>
 
 </html>
