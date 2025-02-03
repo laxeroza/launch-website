@@ -27,75 +27,77 @@ header {
   padding-block: 20px;
   margin-bottom: 3rem;
 
-  .col-7 {
-    .logo {
-      margin-bottom: -5px;
+  
+.col-7{
+  .logo {
+    margin-bottom: -20px;
 
-      a {
-        color: #000000;
-      }
-
-      span {
-        color: #407bff;
-      }
+    a {
+      color: #000000;
     }
 
-    .menu {
-      padding-left: 40px;
+    span {
+      color: #407bff;
+    }
+  }
 
-      ul {
-        margin-bottom: 1.5rem;
+  .menu {
+    padding-left: 40px;
 
-        li {
-          margin-bottom: 10px;
-
-          i {
-            color: #407bff;
-            margin-right: 10px;
-          }
-        }
-      }
+    ul {
+      margin-bottom: 1.5rem;
 
       li {
-        position: relative;
+        margin-bottom: 10px;
 
-        a {
-          color: rgba(0, 0, 0, 0.5);
-          padding: 10px 15px;
-          font-size: 14px;
-          transition-duration: all 0.2s;
-
-          &:hover {
-            color: #000000;
-          }
-        }
-
-        .submenu {
-          position: absolute;
-          top: 60px;
-          padding: 20px 0;
-          margin-bottom: 20px;
-          box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
-          opacity: 0;
-          visibility: hidden;
-          transition: all 0.3s;
-          background-color: #fff;
-
-          a {
-            padding: 5px 20px;
-            color: #000000;
-          }
-        }
-
-        &:hover {
-          .submenu {
-            opacity: 1;
-            top: 35px;
-            visibility: visible;
-          }
+        i {
+          color: #407bff;
+          margin-right: 10px;
         }
       }
     }
+
+    li {
+      position: relative;
+
+      a {
+        color: rgba(0, 0, 0, 0.5);
+        padding: 10px 15px;
+        font-size: 14px;
+        transition-duration: all 0.2s;
+
+        &:hover {
+          color: #000000;
+        }
+      }
+
+      .submenu {
+        position: absolute;
+        top: 60px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+        background-color: #fff;
+
+        a {
+          padding: 5px 20px;
+          color: #000000;
+        }
+      }
+
+      &:hover {
+        .submenu {
+          opacity: 1;
+          top: 35px;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
   }
 
   .col-3 {
@@ -123,12 +125,12 @@ header {
       color: rgb(225, 255, 255);
     }
   }
-}
+
 
 main {
   overflow: hidden;
 
-  section {
+  section{
     padding-bottom: 150px;
   }
 }
@@ -233,7 +235,6 @@ main {
     }
   }
   .col-7 {
-    background-color: #f8f9fa;
     .service-big-image {
       cursor: pointer;
       box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
