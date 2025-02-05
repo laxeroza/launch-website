@@ -893,3 +893,74 @@ i {
     }
   }
 
+  #footer{
+    background: #efefef;
+    font-size: 14px;
+    color: #888;
+    padding: 100px 0;
+
+    .tags{
+        li{
+        margin-top: 30px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        position: relative;
+          .mr-3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            background: #777;
+            border-radius: 50%;
+            i{
+              color: #fff; 
+              &:hover {
+                color: #407bff;
+              }
+            }
+            }
+            }
+        }
+        .text-center{
+          i{
+            color: red;
+          }
+          a{
+            color: #407bff
+          }
+        }
+    }
+
+.col-3{
+  .abl{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+  .Projects{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-left: 35px;
+}
+
+  .first{
+    a{
+        font-style: Nunito, serif;
+        color: #939393;
+    }
+    }
+
+}
+
+      
+
+  
+
+
+
+ 
