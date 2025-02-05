@@ -415,8 +415,8 @@ i {
   }
   .cols-container {
     display: flex;
-    max-width: 1140px;
-    gap: 30px;
+    max-width: 1140px; 
+     gap: 30px; 
     margin: auto;
 
     .pricing-card {
