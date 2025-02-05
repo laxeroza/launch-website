@@ -817,6 +817,7 @@ i {
         position: relative;
         width: 100%;
         padding-right: 15px;
+        padding-left: 15px;
         height: 100%;
       }
       .form-control {
@@ -846,6 +847,8 @@ i {
         }
       }
       .group-2 {
+        padding-right: 15px;
+        padding-left: 15px;
         .form-control-2 {
           width: 100%;
           padding: 40px;
