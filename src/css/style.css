@@ -413,15 +413,16 @@ i {
       font-size: 38px;
     }
   }
+}
   .cols-container {
     display: flex;
-    max-width: 1140px; 
-     gap: 30px; 
+    max-width: 1200px; 
+    gap: 10px; 
     margin: auto;
 
     .pricing-card {
       max-width: 317px;
-      padding: 50px;
+      padding: 30px;
       background: #ffffff;
       border-radius: 40px;
 
@@ -483,7 +484,7 @@ i {
       color: #fff;
     }
   }
-}
+
 
 .active {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
