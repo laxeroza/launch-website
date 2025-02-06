@@ -157,7 +157,9 @@ main {
       line-height: 1;
       margin-bottom: 30px;
     }
-
+    .highlight{
+      color: #407bff;
+    }
     .btn {
       padding: 10px 30px;
       border: 1px solid #407bff;
@@ -416,48 +418,52 @@ i {
 }
   .cols-container {
     display: flex;
-    max-width: 1200px; 
-    gap: 10px; 
+    max-width: 1200px;  
+    gap: 30px;
     margin: auto;
-
-    .pricing-card {
-      max-width: 317px;
-      padding: 30px;
-      background: #ffffff;
-      border-radius: 40px;
-
-      h3 {
-        font-size: 30px;
-      }
-
-      p {
-        sup {
-          font-size: 20px;
-        }
-
-        color: #407bff;
-        font-size: 40px;
-      }
-
-      ul {
-        padding: 10px;
-        margin-bottom: 3rem;
-
-        li {
-          padding-left: 30px;
-          margin-bottom: 10px;
-          position: relative;
-
-          i {
+    justify-content: center;
+      .col-4{
+        max-width: 317px;
+        padding: 15px;
+        .pricing-card {
+          padding: 50px;
+          background: #ffffff;
+          border-radius: 40px;
+          h3 {
+            font-size: 30px;
+          }
+    
+          p {
+            sup {
+              font-size: 20px;
+            }
+    
             color: #407bff;
-            font-size: 17px;
-            position: absolute;
-            left: -10px;
-            top: 7px;
+            font-size: 40px;
+          }
+    
+          ul {
+            padding: 10px;
+            margin-bottom: 3rem;
+    
+            li {
+              padding-left: 30px;
+              margin-bottom: 10px;
+              position: relative;
+    
+              i {
+                color: #407bff;
+                font-size: 17px;
+                position: absolute;
+                left: -10px;
+                top: 7px;
+              }
+            }
           }
         }
       }
-    }
+
+      
   }
 
   .btn-blue {
@@ -800,6 +806,9 @@ i {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .col-4 {
+    padding-left: 120px; 
+    }
 }
 .contact-container {
   padding: 0 100px;
@@ -810,6 +819,7 @@ i {
 }
 
 .row {
+
  
     .contact-form {
       .group-1 {
@@ -858,13 +868,10 @@ i {
         }
       }
     }
+   
   }
 
-.col-4 {
-  padding-left: 120px;
-  padding-top: 60px;
 
-  }
   .text-black {
     padding-top: 20px;
     color: #000000;
@@ -901,6 +908,8 @@ i {
     font-size: 14px;
     color: #888;
     padding: 100px 0;
+
+    
 
     .tags{
         li{
@@ -958,6 +967,7 @@ i {
     }
     }
 
+    
 }
 
       
